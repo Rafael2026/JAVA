@@ -1,5 +1,7 @@
 public class ejercicio3 {
-  public static void main (String []args) {
+  public static void main (String[] args) {
+
+    // Tabla (Inglés a español)
 
     System.out.println ("--------------------");
 
