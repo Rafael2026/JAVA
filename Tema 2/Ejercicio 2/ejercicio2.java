@@ -1,5 +1,6 @@
 public class ejercicio2 {
   public static void main (String[] args) {
-    System.out.print ("Hecho por " + "Rafael Aguilar Munoz");
+    String nombre = "Rafael";
+    System.out.print ("Hecho por " + nombre);
   }
 }
