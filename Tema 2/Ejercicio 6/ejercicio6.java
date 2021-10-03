@@ -41,7 +41,7 @@ public class ejercicio6 {
 
     System.out.println ("---------------------------------------");
 
-    double total = (cant1 * precio1) + (cant2 * precio2) + (cant3 * precio3);
+    double total = ((cant1 * precio1) + (cant2 * precio2) + (cant3 * precio3));
     System.out.print("\t\t\t    " + "|" + total);
   }
 }
