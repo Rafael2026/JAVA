@@ -5,8 +5,8 @@ public class ejercicio3 {
     String direccion = "C/Ceres Nº 8, Campanillas";
     long telefono = 609213851;
 
-    System.out.print ("Hecho por " + nombre + "\n");
-    System.out.print ("Vivo en " + direccion + "\n");
-    System.out.print ("Mi numero de telefono es " + telefono);
+    System.out.println ("Hecho por " + nombre);
+    System.out.println ("Vivo en " + direccion);
+    System.out.println ("Mi numero de telefono es " + telefono);
   }
 }
