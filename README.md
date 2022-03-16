@@ -1,6 +1,4 @@
-# programacion
-
-<h2>Programming exercises of aprendeJava book<h2><br>
+## Programming exercises of aprendeJava book
 <p>Exams will be here too.</p>
 
 <a href="https://github.com/Rafael2026/learn_java/blob/main/aprendeJava.pdf">
