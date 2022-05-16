@@ -8,6 +8,7 @@ public class ejercicio7 {
     char incognita3 = 'z';
     String palabra = "resultado";
 
-    System.out.println (incognita1 + ", " + incognita2 + ", " + incognita3 + ", " + palabra);
+    System.out.println (incognita1 + ", " + incognita2 + ", " +
+                        incognita3 + ", " + palabra);
   }
 }
