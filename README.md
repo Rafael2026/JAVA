@@ -1,4 +1,4 @@
-## Programming exercises of aprendeJava book
+## Programming exercises - aprendeJava book
 <p>Exams will be here too.</p>
 
 <a href="https://leanpub.com/aprendejava/">
