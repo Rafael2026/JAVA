@@ -8,6 +8,6 @@ public class ejercicio8 {
     char letra5 = 'S';
     String palabra = "" + letra1 + letra2 + letra3 + letra4 + letra5;
 
-    System.out.println (palabra);
+    System.out.println(palabra);
   }
 }
