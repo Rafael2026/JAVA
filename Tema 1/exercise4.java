@@ -1,4 +1,4 @@
-public class ejercicio4 {
+public class exercise4 {
   public static void main(String[] args) {
 
     // Horarios de clase 2020/2021

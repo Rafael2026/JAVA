@@ -1,4 +1,4 @@
-public class ejercicio6 {
+public class exercise6 {
   public static void main (String[] args ) {
 
     // Pirámide hecha en Java

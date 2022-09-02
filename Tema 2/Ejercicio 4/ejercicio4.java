@@ -4,7 +4,7 @@ public class ejercicio4 {
     double cantidadEnEuros = 50;
     double total = cantidadEnEuros * 166.386;
 
-    System.out.print ("Euros introducidos: " + cantidadEnEuros + "\n");
-    System.out.print ("Pesetas: " + total);
+    System.out.print("Euros introducidos: " + cantidadEnEuros + "\n");
+    System.out.print("Pesetas: " + total);
   }
 }
