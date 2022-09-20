@@ -20,11 +20,11 @@ public class exercise10 {
 
       for (int x = 0; x < base; x++) {
 
-        System.out.print ("*");
+        System.out.print("*");
 
         if (x == base - 1) {
-          System.out.print ("|");
-          System.out.println ();
+          System.out.println("|");
+          System.out.println();
         }
       }
 

@@ -24,9 +24,8 @@ public class exercise9 {
 
         System.out.print ("*");
 
-        if (x == base - 1) {
-          System.out.print("|");
-          System.out.println();
+        if (x == (base - 1)) {
+          System.out.println("|");
         }
       }
 

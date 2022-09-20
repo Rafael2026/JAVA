@@ -21,10 +21,10 @@ public class exercise5 {
     System.out.println("------------------------------------------");
     System.out.println(azul + "|BBDD   " + "|" + rojo + "PRO    " + "|" + violeta + "ED\t " + "|" + azul + "BBDD  " + "|" + verde + "FOL     " + "|");
     System.out.println("------------------------------------------");
-    System.out.println (amarillo + "|LM     |" + amarillo + "LM     |" + violeta + "ED\t |" + azul + "BBDD  |" + verde + "FOL     |");
-    System.out.println ("------------------------------------------");
-    System.out.println (amarillo + "|LM     |" + amarillo + "LM     |" + violeta + "ED\t " + "|" + azul + "BBDD  |" + verde + "FOL     |");
-    System.out.println ("------------------------------------------");
+    System.out.println(amarillo + "|LM     |" + amarillo + "LM     |" + violeta + "ED\t |" + azul + "BBDD  |" + verde + "FOL     |");
+    System.out.println("------------------------------------------");
+    System.out.println(amarillo + "|LM     |" + amarillo + "LM     |" + violeta + "ED\t " + "|" + azul + "BBDD  |" + verde + "FOL     |");
+    System.out.println("------------------------------------------");
 
     // PRO -> programación (Rojo)
     // BBDD -> base de datos (Azul)
