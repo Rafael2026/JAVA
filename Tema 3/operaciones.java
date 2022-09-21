@@ -8,19 +8,19 @@ public class operaciones {
     double numero2 = Double.parseDouble(System.console().readLine());
     
     double suma = numero1 + numero2;
-
-    System.out.println("suma: " + suma);
-    
     double resta = numero1 - numero2;
-    System.out.println("resta: " + resta);
-    
     double multiplicacion = numero1 * numero2;
-    System.out.println("multiplicacion: " + multiplicacion);
-    
     double division = numero1 / numero2;
-    System.out.println("division: " + division);
-    
     double modulo = numero1 % numero2;
-    System.out.println("modulo: " + modulo);
+
+    System.out.println("\nSuma: " + suma);
+    
+    System.out.println("\nResta: " + resta);
+    
+    System.out.println("\nMultiplicacion: " + multiplicacion);
+    
+    System.out.println("\nDivision: " + division);
+    
+    System.out.println("\nModulo: " + modulo);
   }
 }

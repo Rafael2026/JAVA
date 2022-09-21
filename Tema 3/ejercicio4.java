@@ -7,7 +7,6 @@ public class ejercicio4 {
 
     System.out.print("y = ");
     double y = Double.parseDouble (System.console().readLine());
-    
 
     System.out.println("\nSuma: " + (x + y));
     

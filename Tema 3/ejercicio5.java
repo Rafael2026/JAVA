@@ -7,8 +7,6 @@ public class ejercicio5 {
     System.out.print ("Introducir la altura: ");
     double altura = Double.parseDouble(System.console().readLine());
 
-    System.out.println ();
-
-    System.out.print ("Resultado: " + (base * altura));
+    System.out.print("\nResultado: " + (base * altura));
   }
 }
