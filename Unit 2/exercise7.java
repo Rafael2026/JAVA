@@ -1,4 +1,4 @@
-public class ejercicio7 {
+public class exercise7 {
   public static void main(String []args) {
 
     // Solamente es posible si la misma variable no es de dos tipos distintos

@@ -3,11 +3,9 @@ public class ejercicio10 {
 
     System.out.print("Introducir una cantidad en megaBits: ");
     double megaBits = Double.parseDouble (System.console().readLine());
-
-    System.out.println();
     
     double kiloBits = megaBits * 1000;
 
-    System.out.print(megaBits + " Mb son " + kiloBits + " kb");
+    System.out.print("\n" + megaBits + " Mb son " + kiloBits + " kb");
   }
 }

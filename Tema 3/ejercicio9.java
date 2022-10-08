@@ -6,7 +6,6 @@ public class ejercicio9 {
     System.out.print("Introducir el radio de la base del cono: ");
     double radio = Double.parseDouble(System.console().readLine());
 
-
     System.out.print("\nIntroducir la altura del cono: ");
     double altura = Double.parseDouble(System.console().readLine());
 

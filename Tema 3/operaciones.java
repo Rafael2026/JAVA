@@ -6,21 +6,15 @@ public class operaciones {
     
     System.out.print("Introducir numero2: ");
     double numero2 = Double.parseDouble(System.console().readLine());
-    
-    double suma = numero1 + numero2;
-    double resta = numero1 - numero2;
-    double multiplicacion = numero1 * numero2;
-    double division = numero1 / numero2;
-    double modulo = numero1 % numero2;
 
-    System.out.println("\nSuma: " + suma);
+    System.out.println("\nSuma: " + (numero1 + numero2));
     
-    System.out.println("\nResta: " + resta);
+    System.out.println("\nResta: " + (numero1 - numero2));
     
-    System.out.println("\nMultiplicacion: " + multiplicacion);
+    System.out.println("\nMultiplicacion: " + (numero1 * numero2));
     
-    System.out.println("\nDivision: " + division);
+    System.out.println("\nDivision: " + (numero1 / numero2));
     
-    System.out.println("\nModulo: " + modulo);
+    System.out.println("\nModulo: " + (numero1 % numero2));
   }
 }

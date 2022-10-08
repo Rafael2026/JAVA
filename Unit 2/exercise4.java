@@ -1,4 +1,4 @@
-public class ejercicio4 {
+public class exercise4 {
   public static void main (String []args ){
 
     double cantidadEnEuros = 50;
