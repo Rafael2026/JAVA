@@ -1,6 +1,0 @@
-5º Haz una lista con los atributos que podría tener la clase caballo.
-A continuación haz una lista con los posibles métodos (acciones asociadas a los caballos).
-
-Clase Caballo:
-	- atributos: nombre, raza, color, edad, carrerasGanadas
-	- métodos: cabalga, rumia, relincha, trota

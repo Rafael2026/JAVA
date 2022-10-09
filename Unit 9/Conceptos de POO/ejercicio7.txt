@@ -1,0 +1,9 @@
+7º
+
+a) ¿Cuáles serían los atributos de la clase Ventana (de ordenador)?
+esVisible, tieneElFoco, posicion, anchura, altura, colorDeFondo, titulo, esRedimensionable
+
+b) ¿cuáles serían los métodos?
+maximiza, minimiza, restaura, cierra, redimiensiona, mueve
+
+

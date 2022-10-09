@@ -1,0 +1,8 @@
+6º
+
+a) Lista los atributos de la clase Alumno
+numExpediente, nombre, fechaNacimiento, curso, direccion, telefono
+
+b) ¿Sería nombre uno de los atributos de la clase? Razona tu respuesta.
+“nombre” es un atributo que guarda el nombre completo con tildes, espacios, mayúsculas y minúsculas, etc.
+En el programa principal, los objetos de la clase Alumno tendrán nombres como alumno1, alumnoAux, pepito y no pueden tener espacios ni tildes.

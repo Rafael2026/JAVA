@@ -1,6 +1,0 @@
-clase
-
-objeto -> instancia de clase
-
-herencia
-polimorfismo vs sobrecarga

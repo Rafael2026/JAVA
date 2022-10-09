@@ -1,8 +1,0 @@
-1º ¿Cuáles serían los atributos de la clase PilotoDeFormula1?
-¿Se te ocurren algunas instancias de esta clase?
-
-- Atributos de la clase PilotoDeFormula1: nombre, edad, campeonatosGanados,
-numeroDeCarrerasOficiales, mediaDePuntosPorTemporada, podiosConseguidos
-
-- Instancias de la clase PilotoDeFormula1:
-fernandoAlonso, kimiRaikkonen, valtteriBottas, maxVerstappen, carlosSainz, charlesLeclerc, georgeRussell

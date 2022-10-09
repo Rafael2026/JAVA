@@ -1,9 +1,0 @@
-3º ¿Cuáles serían los atributos de la clase Vivienda?
-¿Qué subclases se te ocurren?
-
-- Atributos de Vivienda:
-metrosCuadrados, numeroDeHabitaciones, tieneGaraje, orientacion
--------------------------------------------------------------------------
-
-- Subclases de Vivienda:
-piso, adosado, cortijo
