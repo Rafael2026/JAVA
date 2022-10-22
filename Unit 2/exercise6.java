@@ -2,6 +2,7 @@ public class exercise6 {
   public static void main (String []args) {
 
     System.out.println("Introducir cantidades: ");
+    
     System.out.print("Primera cantidad: ");
     int cant1 = Integer.parseInt (System.console().readLine());
 
