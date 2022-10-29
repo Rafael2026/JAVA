@@ -17,19 +17,17 @@ public class ejercicio12 {
 
     for (i = 0; i < cantidad; i++) {
 
-      if ((i >= 0) && (i < 2)) {
+      if (i >= 0 && i < 2) {
         resultado = i;
         System.out.print (resultado + ", ");
-      }
+      } else if (i >= 2 && i <= 4) {
 
-      if ((i >= 2) && (i <= 4)) {
         resultado = numero + contador;
         contador++;
 
         System.out.print (resultado + ", ");
-      }
 
-      if (i == 5) {
+      } else if (i == 5) {
 
         numero = 3;
         contador = 2;
@@ -39,9 +37,7 @@ public class ejercicio12 {
 
         contador = numero;
         numero = resultado;
-      }
-
-      if ((i >= 5) && (i < cantidad)) {
+      } else if (i >= 5 && i < cantidad) {
 
         resultado = numero + contador;
         System.out.print (resultado + ", ");

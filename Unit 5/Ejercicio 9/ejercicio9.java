@@ -1,7 +1,7 @@
 import java.lang.Math;
 
 public class ejercicio9 {
-  public static void main (String []args) {
+  public static void main (String[] args) {
 
     int numero = 10;
 

@@ -23,20 +23,20 @@ public class ejercicio19 {
       for (int x = 0; x < altura; x++) {
 
         for (int i = 0; i < cantidadEspacios; i++) {
-          System.out.print (espacios);
+          System.out.print(espacios);
         }
 
         for (int i = 0; i < cantidadCaracteres; i++) {
-          System.out.print (caracter);
+          System.out.print(caracter);
         }
 
         for (int i = 0; i < cantidadEspacios; i++) {
-          System.out.print (espacios);
+          System.out.print(espacios);
         }
 
         cantidadEspacios--;
         cantidadCaracteres+=2;
-        System.out.println ();
+        System.out.println();
       }
     }
   }

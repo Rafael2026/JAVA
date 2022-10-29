@@ -16,19 +16,17 @@ public class ejercicio7 {
 
       while ((intentos >= 1)) {
 
-        System.out.print ("Combinacion introducida: ");
+        System.out.print("Combinacion introducida: ");
         combinacionIntroducida = Integer.parseInt (System.console().readLine());
 
         intentos--;
 
       }
 
-      System.out.println ();
-      System.out.print ("Te has quedado sin intentos");
+      System.out.print("\nTe has quedado sin intentos");
 
     } else {
-      System.out.println ();
-      System.out.print ("La caja fuerte se ha abierto satisfactoriamente");
+      System.out.print("\nLa caja fuerte se ha abierto satisfactoriamente");
     }
   }
 }

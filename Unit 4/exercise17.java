@@ -4,7 +4,6 @@ public class exercise17 {
     System.out.println("Introducir un numero: ");
     int numero = Integer.parseInt(System.console().readLine());
 
-    System.out.println();
-    System.out.print("La ultima cifra es: " + (numero % 10));
+    System.out.print("\nLa ultima cifra es: " + (numero % 10));
   }
 }

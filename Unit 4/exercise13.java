@@ -10,17 +10,17 @@ public class exercise13 {
     System.out.print("Introducir c: ");
     int c = Integer.parseInt(System.console().readLine());
 
-    if ((a >= b) && (b >= c)) {
+    if (a >= b && b >= c) {
       System.out.print("\n" + c + " < " + b + " < " + a);
-    } else if ((a >= c) && (c >= b)) {
+    } else if (a >= c && c >= b) {
       System.out.print("\n" + b + " < " + c + " < " + a);
-    } else if ((b >= a) && (a >= c)) {
+    } else if (b >= a && a >= c) {
       System.out.print("\n" + c + " < " + a + " < " + b);
-    } else if ((b >= c) && (c >= a)) {
+    } else if (b >= c && c >= a) {
       System.out.print("\n" + a + " < " + c + " < " + b);
-    } else if ((c >= a) && (a >= b)) {
+    } else if (c >= a && a >= b) {
       System.out.print("\n" + b + " < " + a + " < " + b);
-    } else if ((c >= b) && (b >= a)) {
+    } else if (c >= b && b >= a) {
       System.out.print("\n" + a + " < " + b + " < " + c);
     }
   }

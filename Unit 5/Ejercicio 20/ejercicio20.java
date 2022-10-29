@@ -26,15 +26,15 @@ public class ejercicio20 {
         if (y == 0) {
 
           for (int x = 0; x < cantidadEspacios; x++) {
-            System.out.print (espacios);
+            System.out.print(espacios);
           }
 
           for (int x = 0; x < cantidadCaracteres; x++) {
-            System.out.print (caracter);
+            System.out.print(caracter);
           }
 
           for (int x = 0; x < espaciosEntreCaracteres; x++) {
-            System.out.print (espacios);
+            System.out.print(espacios);
           }
 
           System.out.println ();
@@ -42,7 +42,7 @@ public class ejercicio20 {
 
         }
 
-        if ((y >= 1) && (y < (altura - 1))) {
+        if (y >= 1 && y < altura - 1) {
 
           for (int x = 0; x < cantidadEspacios; x++) {
             System.out.print (espacios);

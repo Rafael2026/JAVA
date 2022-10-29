@@ -7,7 +7,7 @@ public class exercise11 {
     System.out.print("Introducir minutos: ");
     int minutos = Integer.parseInt(System.console().readLine());
 
-    if ((hora == 23) && (minutos == 60)) {
+    if (hora == 23 && minutos == 60) {
       System.out.println("\nYa es la hora ");
     } else {
       System.out.println("\nFaltan " + (23 - hora) + " hora y " + (60 - minutos) + " minutos");

@@ -12,21 +12,21 @@ public class exercise8 {
 
     double notaFinal = (nota1 + nota2 + nota3) / 3;
 
-    if ((notaFinal >= 0) && (notaFinal < 5)) {
-      System.out.print("\nTu nota final es: " + notaFinal);
-      System.out.print("\nSuspenso");
+    if (notaFinal >= 0 && notaFinal < 5) {
+      System.out.println("\nTu nota final es: " + notaFinal);
+      System.out.print("Suspenso");
     } else if ((notaFinal >= 5) && (notaFinal < 6)) {
-      System.out.print("\nTu nota final es: " + notaFinal);
-      System.out.print("\nSuficiente");
+      System.out.println("\nTu nota final es: " + notaFinal);
+      System.out.print("Suficiente");
     } else if ((notaFinal >= 6) && (notaFinal < 7)) {
-      System.out.print("\nTu nota final es: " + notaFinal);
-      System.out.print("\nBien");
+      System.out.println("\nTu nota final es: " + notaFinal);
+      System.out.print("Bien");
     } else if ((notaFinal >= 7) && (notaFinal < 9)) {
-      System.out.print("\nTu nota final es: " + notaFinal);
-      System.out.print("\nNotable");
+      System.out.println("\nTu nota final es: " + notaFinal);
+      System.out.print("Notable");
     } else if ((notaFinal >= 7) && (notaFinal < 9)) {
-      System.out.print("\nTu nota final es: " + notaFinal);
-      System.out.print("\nSobresaliente");
+      System.out.println("\nTu nota final es: " + notaFinal);
+      System.out.print("Sobresaliente");
     }
   }
 }

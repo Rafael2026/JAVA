@@ -8,6 +8,5 @@ public class exercise2 {
     
     System.out.println("\nEuros introducidos: " + cantidadEnEuros);
     System.out.println("Pesetas: " + total);
-    
   }
 }

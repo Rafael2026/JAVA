@@ -13,14 +13,10 @@ public class exercise15 {
       if (altura == 0) {
         System.out.println("  " + caracter + "  ");
         altura++;
-      }
-
-      if (altura == 1) {
+      } else if (altura == 1) {
         System.out.println(" " + caracter + caracter + caracter + " ");
         altura++;
-      }
-
-      if (altura == 2) {
+      } else if (altura == 2) {
         System.out.println(caracter + caracter + caracter + caracter + caracter);
       }
     }
@@ -32,24 +28,16 @@ public class exercise15 {
       if (altura == 0) {
         System.out.println(caracter);
         altura++;
-      }
-
-      if (altura == 1) {
+      } else if (altura == 1) {
         System.out.println(caracter + caracter);
         altura++;
-      }
-
-      if (altura == 2) {
+      } else if (altura == 2) {
         System.out.println(caracter + caracter + caracter);
         altura++;
-      }
-
-      if (altura == 3) {
+      } else if (altura == 3) {
         System.out.println(caracter + caracter);
         altura++;
-      }
-
-      if (altura == 4) {
+      } else if (altura == 4) {
         System.out.println(caracter);
       }
     }
@@ -63,24 +51,16 @@ public class exercise15 {
       if (altura == 0) {
         System.out.println("  " + caracter);
         altura++;
-      }
-
-      if (altura == 1) {
+      } else if (altura == 1) {
         System.out.println(" " + caracter + caracter);
         altura++;
-      }
-
-      if (altura == 2) {
+      } else if (altura == 2) {
         System.out.println(caracter + caracter + caracter);
         altura++;
-      }
-
-      if (altura == 3) {
+      } else if (altura == 3) {
         System.out.println(" " + caracter + caracter);
         altura++;
-      }
-
-      if (altura == 4) {
+      } else if (altura == 4) {
         System.out.println("  " + caracter);
       }
     }
@@ -94,14 +74,10 @@ public class exercise15 {
       if (altura == 0) {
         System.out.println(caracter + caracter + caracter + caracter + caracter);
         altura++;
-      }
-
-      if (altura == 1) {
+      } else if (altura == 1) {
         System.out.println(" " + caracter + caracter + caracter);
         altura++;
-      }
-
-      if (altura == 2) {
+      } else if (altura == 2) {
         System.out.println("  " + caracter + "  ");
       }
     }

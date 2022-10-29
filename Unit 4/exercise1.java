@@ -7,23 +7,23 @@ public class exercise1 {
     switch (diaSemana) {
 
       case "lunes":
-        System.out.print("Programacion");
+        System.out.println("Programacion");
       break;
 
       case "martes":
-        System.out.print("Sistemas Informaticos");
+        System.out.println("Sistemas Informaticos");
       break;
 
       case "miercoles":
-        System.out.print("Programacion");
+        System.out.println("Programacion");
       break;
 
       case "jueves":
-        System.out.print("Programacion");
+        System.out.println("Programacion");
       break;
 
       case "viernes":
-        System.out.print("Sistemas Informaticos");
+        System.out.println("Sistemas Informaticos");
       break;
 
       default:

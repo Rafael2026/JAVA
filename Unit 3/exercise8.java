@@ -14,6 +14,5 @@ public class exercise8 {
     double sueldoSemanal = (sueldoDiario * diasLaborales);
 
     System.out.print("\nSueldo semanal: " + sueldoSemanal);
-
   }
 }

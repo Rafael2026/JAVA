@@ -29,6 +29,7 @@ public class exercise29 {
       }
 
       System.out.print ("Total: " + (precioDesayuno + precioBebida));
+      
     } else if (desayuno.equals("donut")) {
       
       precioDesayuno = 1;
@@ -40,6 +41,7 @@ public class exercise29 {
         precioBebida = 1.5;
 
         System.out.println("Zumo: " + precioBebida);
+
       } else if (bebida.equals ("cafe")) {
         
         precioBebida = 1.2;
@@ -64,6 +66,7 @@ public class exercise29 {
           precioBebida = 1.5;
 
           System.out.println("Zumo: " + precioBebida);
+
         } else if (bebida.equals ("cafe")) {
 
           precioBebida = 1.2;
@@ -84,9 +87,8 @@ public class exercise29 {
           precioBebida = 1.5;
 
           System.out.println("Zumo: " + precioBebida);
-        }
 
-        if (bebida.equals ("cafe")) {
+        } else if (bebida.equals ("cafe")) {
           
           precioBebida = 1.2;
 
