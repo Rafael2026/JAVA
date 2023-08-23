@@ -47,7 +47,7 @@ public class CalculadoraTest {
   }
 
   @Test
-  public void Given_Calculadora_Object_When_Dividir_Then_Return_Expected_Result() {
+  public void Given_Calculadora_Object_When_Dividir_Then_Return_Expected_Result()  throws Exception {
 
     // Arrange
     Calculadora division = new Calculadora();
@@ -57,45 +57,40 @@ public class CalculadoraTest {
     
     // Assert
     Assert.assertEquals(3, result);
+    Assert.assertThrows(Exception.class, () -> division.dividir(72, 24));
   }
 
   @Test
-  public void Given_Calculadora_Object_When_DividirDecimal_Then_Return_Expected_Result() {
+  public void Given_Calculadora_Object_When_DividirDecimal_Then_Return_Expected_Result() throws Exception {
 
     // Arrange
     Calculadora division = new Calculadora();
-
-    // Act
-    double result = division.dividir(15.0, 4.0);
     
-    // Assert
-    Assert.assertEquals(3.75, result, 0.001);
+    // Act&& Assert
+    Exception ex = Assert.assertThrows(Exception.class, () -> division.dividir(15.0, 4.0));
+    //Assert.assertEquals("You can't divide by zero", ex.getMessage());
   }
 
   @Test
-  public void Given_Calculadora_Object_When_IntegerRange_Then_Return_Expected_Result() {
+  public void Given_Calculadora_Object_When_IntegerRange_Then_Return_Expected_Result() throws Exception {
 
     // Arrange
     Calculadora division = new Calculadora();
-
-    // Act
-    int result = division.dividir(2147483647+1, 1);
     
-    // Assert
-    Assert.assertEquals(2147483647+1, result);
+    // Act && Assert
+    Exception ex = Assert.assertThrows(Exception.class, () -> division.dividir(2147483647+1, 1));
+    //Assert.assertEquals("You can't divide by zero", ex.getMessage());
   }
 
   @Test
-  public void Given_Calculadora_Object_When_blbala_Then_Return_Expected_Result() {
+  public void Given_Calculadora_Object_When_DivideByZero_Then_Return_Exception() {
 
     // Arrange
     Calculadora division = new Calculadora();
-
-    // Act
-    int result = division.dividir(1, 0);
     
-    // Assert
-    Assert.assertEquals(1/0, result);
+    // Act && Assert
+    Exception ex = Assert.assertThrows(Exception.class, () -> division.dividir(1, 0));
+    Assert.assertEquals("You can't divide by zero", ex.getMessage());
   }
 
   @Test

@@ -1,6 +1,6 @@
-import java.io.FileNotFoundException;
-
 public class Calculadora {
+
+  String message = "You cannot divide by zero";
 
   // Metodo sumar
   public int sumar(int sumando1, int sumando2) {
@@ -20,9 +20,7 @@ public class Calculadora {
   // Metodo dividir
   public int dividir(int dividendo, int divisor) throws Exception {
 
-    if (divisor == 0) {
-      throw new Exception("Error");
-    }
+    assertDivisor(divisor*1.0);
 
     return dividendo/divisor;
   }
@@ -30,9 +28,7 @@ public class Calculadora {
   // Metodo dividir con decimales
   public double dividir(double dividendo, double divisor) throws Exception {
 
-    if (divisor == 0) {
-      throw new Exception("Error");
-    }
+    assertDivisor(divisor);
 
     return dividendo/divisor;
   }
@@ -47,5 +43,13 @@ public class Calculadora {
     }
 
     return potenciaResultado;
+  }
+
+  public void assertDivisor(double divisor) throws Exception {
+
+    if (divisor == 0) {
+      throw new Exception(message);
+      //Logger.error(message, severity.low);
+    }
   }
 }

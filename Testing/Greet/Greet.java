@@ -1,5 +1,6 @@
 public class Greet {
-  public String says(){
+
+  public String says() {
     return "Hello";
   }
 }

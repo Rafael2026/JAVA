@@ -25,14 +25,15 @@
         month = request.getParameter ("month");
         text = request.getParameter ("text");
         
-        out.println (year);
-        out.println (day);
-        out.println (month);
-        out.println (text);
+        <%--
+          out.println (year);
+          out.println (day);
+          out.println (month);
+          out.println (text);
+        --%>
         
-        String[] meses = {" ", "Enero", "Febrero", "Marzo", "Abril", "Mayo",
-                          "Junio", "Julio", "Agosto", "Septiembre",
-                          "Octubre", "Noviembre", "Diciembre"};
+        String[] meses = {" ", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+                          "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
         
         int i = 0;
 

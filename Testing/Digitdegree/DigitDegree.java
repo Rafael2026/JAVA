@@ -1,17 +1,17 @@
 public class DigitDegree {
 
-  public int getDigitDegree(int n) {
+  public int getDigitDegree (int n) {
 
     int sum = 0;
-    int result=0;
+    int result = 0;
 
     do {
 
       sum = sumDigits(n);
 
-      if(sum >= 10) {
+      if (sum >= 10) {
         result++;
-        n=sum;
+        n = sum;
       }
   
     } while (sum >= 10);
@@ -19,7 +19,7 @@ public class DigitDegree {
     return result;
   }
 
-  public int sumDigits(int number) {
+  public int sumDigits (int number) {
 
     int sum = 0;
 
