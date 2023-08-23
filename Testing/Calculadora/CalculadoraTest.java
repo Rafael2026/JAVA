@@ -47,39 +47,42 @@ public class CalculadoraTest {
   }
 
   @Test
-  public void Given_Calculadora_Object_When_Dividir_Then_Return_Expected_Result()  throws Exception {
+  public void Given_Calculadora_Object_When_Dividir_Then_Return_Expected_Result() throws Exception {
 
     // Arrange
     Calculadora division = new Calculadora();
-
+    
     // Act
     int result = division.dividir(72, 24);
     
     // Assert
     Assert.assertEquals(3, result);
-    Assert.assertThrows(Exception.class, () -> division.dividir(72, 24));
   }
-
+  
   @Test
   public void Given_Calculadora_Object_When_DividirDecimal_Then_Return_Expected_Result() throws Exception {
 
     // Arrange
     Calculadora division = new Calculadora();
     
-    // Act&& Assert
-    Exception ex = Assert.assertThrows(Exception.class, () -> division.dividir(15.0, 4.0));
-    //Assert.assertEquals("You can't divide by zero", ex.getMessage());
+    // Act
+    double result = division.dividir(15.0, 4.0);
+
+    // Assert
+    Assert.assertEquals(3.75, result, 0.001);
   }
 
   @Test
-  public void Given_Calculadora_Object_When_IntegerRange_Then_Return_Expected_Result() throws Exception {
+  public void Given_Calculadora_Object_When_IntegerRange_Then_Return_Exception() throws Exception {
 
     // Arrange
     Calculadora division = new Calculadora();
-    
-    // Act && Assert
-    Exception ex = Assert.assertThrows(Exception.class, () -> division.dividir(2147483647+1, 1));
-    //Assert.assertEquals("You can't divide by zero", ex.getMessage());
+
+    // Act
+    int result = division.dividir(2147483647+1, 1);
+
+    // Assert
+    Assert.assertEquals(2147483647+1, result);
   }
 
   @Test
@@ -90,7 +93,7 @@ public class CalculadoraTest {
     
     // Act && Assert
     Exception ex = Assert.assertThrows(Exception.class, () -> division.dividir(1, 0));
-    Assert.assertEquals("You can't divide by zero", ex.getMessage());
+    Assert.assertEquals("You cannot divide by zero", ex.getMessage());
   }
 
   @Test

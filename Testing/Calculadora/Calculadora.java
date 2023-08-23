@@ -1,7 +1,5 @@
 public class Calculadora {
 
-  String message = "You cannot divide by zero";
-
   // Metodo sumar
   public int sumar(int sumando1, int sumando2) {
     return sumando1 + sumando2;
@@ -48,7 +46,7 @@ public class Calculadora {
   public void assertDivisor(double divisor) throws Exception {
 
     if (divisor == 0) {
-      throw new Exception(message);
+      throw new Exception("You cannot divide by zero");
       //Logger.error(message, severity.low);
     }
   }
